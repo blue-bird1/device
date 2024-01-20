@@ -1,0 +1,1 @@
+include device/redroid/redroid_x86_64_only/BoardConfig.mk
