@@ -1,0 +1,10 @@
+$(call inherit-product, $(LOCAL_PATH)/../redroid/redroid_arm64_only.mk)
+PRODUCT_NAME := bluebird_arm64_only
+PRODUCT_DEVICE := bluebird_arm64_only
+PRODUCT_BRAND := blulebird
+PRODUCT_MODEL := bluebird_arm64_only
+PRODUCT_SYSTEM_PROPERTIES += ro.bluebird=1
+PRODUCT_PACKAGES += vnc_import
+PRODUCT_PACKAGES += bpf_test
+PRODUCT_PACKAGES_OVERLAYS := $(LOCAL_PATH)/overlay
+TARGET_PRODUCT_PROP := $(LOCAL_PATH)/product.prop

@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.27)
+project("bpf_test.c")
+set(CMAKE_INCLUDE_PATH "/home/dev/redroid_aosp/")
+add_library(bpf_test bpf_test.c)
+target_include_directories(bpf_test PUBLIC "${CMAKE_INCLUDE_PATH}bionic/libc/include")
+target_include_directories(bpf_test PUBLIC "${CMAKE_INCLUDE_PATH}frameworks/libs/net/common/native/bpf_headers/include/bpf")
+target_include_directories(bpf_test PUBLIC "${CMAKE_INCLUDE_PATH}bionic/libc/kernel/android/uapi")
+target_include_directories(bpf_test PUBLIC "${CMAKE_INCLUDE_PATH}system/core/libcutils/include")

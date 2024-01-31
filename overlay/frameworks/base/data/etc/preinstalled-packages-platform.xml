@@ -1,0 +1,7 @@
+<config>
+    <install-in-user-type package="net.christianbeier.droidvnc_ng">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+    </install-in-user-type>
+</config>

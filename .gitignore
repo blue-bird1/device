@@ -1,0 +1,3 @@
+*.apk
+*.jar
+cmake-build-debug

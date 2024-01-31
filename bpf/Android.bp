@@ -1,0 +1,9 @@
+bpf {
+    name: "bpf_test",
+    srcs: ["bpf_test.c"],
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+
+}
