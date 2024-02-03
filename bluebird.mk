@@ -1,4 +1,4 @@
-
+$(call inherit-product, vendor/gapps/x86_64/x86_64-vendor.mk)
 $(call inherit-product, $(LOCAL_PATH)/../redroid/redroid_x86_64_only.mk)
 PRODUCT_NAME := bluebird_x86_64_only
 PRODUCT_DEVICE := bluebird_x86_64_only
