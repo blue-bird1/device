@@ -1,0 +1,6 @@
+service test_bluebird /system/bin/autostart.sh
+       user root 
+       disabled
+       oneshot
+on property:dev.bootcomplete=1
+   start test_bluebird
